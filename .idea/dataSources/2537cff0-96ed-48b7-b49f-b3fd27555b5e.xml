@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="datamining@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="datamining">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="cvsdb302"/>
+    <schema id="4" parent="1" name="information_schema"/>
+    <schema id="5" parent="1" name="lecturemanager"/>
+    <schema id="6" parent="1" name="mysql"/>
+    <schema id="7" parent="1" name="performance_schema"/>
+    <schema id="8" parent="1" name="sakila"/>
+    <schema id="9" parent="1" name="sys"/>
+    <schema id="10" parent="1" name="world"/>
+    <table id="11" parent="2" name="attribute_range"/>
+    <table id="12" parent="2" name="entry"/>
+    <table id="13" parent="2" name="name_maps"/>
+    <column id="14" parent="11" name="attribute_index">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="15" parent="11" name="display_name">
+      <Position>2</Position>
+      <DataType>varchar(40)|0</DataType>
+    </column>
+    <column id="16" parent="11" name="min">
+      <Position>3</Position>
+      <DataType>float|0</DataType>
+    </column>
+    <column id="17" parent="11" name="max">
+      <Position>4</Position>
+      <DataType>float|0</DataType>
+    </column>
+    <column id="18" parent="12" name="age">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="19" parent="12" name="height">
+      <Position>2</Position>
+      <DataType>float|0</DataType>
+    </column>
+    <column id="20" parent="12" name="weight">
+      <Position>3</Position>
+      <DataType>float|0</DataType>
+    </column>
+    <column id="21" parent="12" name="sex">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="22" parent="12" name="activity_domain">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="23" parent="12" name="effort_level">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="24" parent="12" name="avg_speed">
+      <Position>7</Position>
+      <DataType>float|0</DataType>
+    </column>
+    <column id="25" parent="12" name="distance">
+      <Position>8</Position>
+      <DataType>float|0</DataType>
+    </column>
+    <column id="26" parent="13" name="attribute_index">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="27" parent="13" name="display_name">
+      <Position>2</Position>
+      <DataType>varchar(40)|0</DataType>
+    </column>
+  </database-model>
+</dataSource>
